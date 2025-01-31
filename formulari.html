@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estils/style.css">
+    <title>Formulario de contacto</title>
+</head>
+<body>
+    <header>
+        <table>
+            <tr>
+                <td>
+                    <a href="index.html" class="hrefindex"><h2 class="h2a">Omar</h2></a>
+                </td>
+                <td>
+                    <a href="pagina1.html" class="enlacemenu">Sobre mi</a>
+                </td>
+                <td>
+                    <a href="pagina2.html" class="enlacemenu">Mi currículum</a>
+                </td>
+                <td>
+                    <a href="formulari.html" class="enlacemenu">Formulario de contacto</a>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <h1 class="titulo1">Formulario de contacto</h1>
+    <hr class="hrcurriculum"> 
+    <div class="divformulario">
+        <p class="pformulario">
+            Si desea contactar conmigo puede usar este formulario.<br>
+            <i>Si aparece * es que el campo es obligatorio.</i>
+        </p>
+        <form id="form">
+            <table class="tablaform">
+                <tr class="trform">
+                    <td class="tdform">
+                        <label for="nom">Nombre: *</label><br>
+                        <input type="text" name="nom" required maxlength="25">
+                    </td>
+                    <td class="tdform">
+                        <label for="apellido1">Primer apellido: *</label><br>
+                        <input type="text" name="apellido1" required maxlength="25">
+                    </td>
+                    <td class="tdform">
+                        <label for="apellido2">Segundo apellido: *</label><br>
+                        <input type="text" name="apellido2" required maxlength="25">
+                    </td>
+                    <td class="tdimatge" rowspan="3">
+                        <img src="imatges/form.png" alt="form" class="imatge2">
+                    </td>
+                </tr>
+                <tr class="trform">
+                    <td class="tdform">
+                        <label for="edad">Edad: </label><br>
+                        <input type="number" name="edad" min="1" max="120">
+                    </td>
+                    <td class="tdform">
+                        <label for="gmail">Correo eléctronico: *</label><br>
+                        <input type="email" name="gmail" required>
+                    </td>
+                    <td class="tdform">
+                        <label for="genero">Género: </label><br>
+                        <select name="genero">
+                            <option value="" aria-label="mascota" disabled selected>-</option>
+                            <option value="0">Hombre</option>
+                            <option value="1">Mujer</option>
+                            <option value="2">Otro</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr class="trform">
+                    <td colspan="2"  class="tdform">
+                        <label for="mensaje">Mensaje: </label><br>
+                        <textarea name="mensaje" maxlength="200"></textarea>
+                    </td>
+                    <td  class="tdform">
+                        <button class="boton" type="submit" id="enviar">Enviar</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+        
+    <footer>
+        <table class="tablaborde">
+            <tr>
+                <td>
+                    <span class="spanfooter">&copy; Autor:<span class="autor">Julián Jover, Omar</span></span>
+                </td>
+                <td>
+                    <span><a href="https://www.instagram.com" class="spanfooter1">Instagram</a></span>
+                </td>
+                <td>
+                    <span><a href="https://www.facebook.com/" class="spanfooter1">Facebook</a></span>
+                </td>
+                <td>
+                    <span><a href="https://x.com/i/flow/login" class="spanfooter1">Twitter</a></span>
+                </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>
