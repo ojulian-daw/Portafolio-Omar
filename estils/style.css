@@ -1,0 +1,251 @@
+body{
+    background-color: rgb(193,236,206);
+}
+header{
+    margin-bottom: 5rem;
+    margin-left: 5%;
+}
+.hrefindex{
+   color: black;
+    text-decoration: none;
+}
+.h2a{
+    margin-left: 2rem;
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-style: italic;
+}
+.h2a:hover{
+    color: blue;
+}
+.enlacemenu{
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 2rem;
+}
+.enlacemenu:hover{
+    color: blue;
+    text-decoration: underline;
+    font-style: italic;
+}
+.titulo1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 5rem;
+    font-size: 4.2rem;
+}
+.titulo2{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 5rem;
+    font-size: 3.8rem;
+}
+footer{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    width: 100%;
+}
+.spanfooter{
+    font-weight: bold;
+    font-size: 0.95rem;
+    font-family: sans-serif;
+    margin-right: 5rem;
+}
+.spanfooter1{
+    text-decoration: none;
+    margin-right: 5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.4rem;
+    color: blue;
+}
+.spanfooter1:hover{
+    text-decoration: underline;
+    color: white;
+}
+.autor{
+    font-style: italic;
+    letter-spacing: 0.1rem;
+    margin-left: 1rem;
+}
+.autor:hover{
+    color: cyan;
+}
+
+.tablacurriculum{
+    padding: 1rem;
+}
+.curriculum{
+    margin-left: 10%;
+    margin-top: 5rem;
+}
+.hrcurriculum{
+    background-color: gray;
+    width: 80%;
+}
+th{
+    text-decoration: underline;
+    font-family: serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.td1{
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.td2{
+    font-style: italic;
+    text-align: right;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+li{
+    margin-bottom: 0.5rem;
+}
+.lugarlista{
+    list-style-type: none;
+    margin-left: 1rem;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.elementolista{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.titulcurriculum{
+    text-decoration: underline;
+    text-underline-offset: 0.6rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+}
+.listaprogrmas{
+    list-style: square;
+}
+.habilidades{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.pcurriculum{
+    margin-left: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.divformulario{
+    margin-left: 10%;
+    margin-top: 2.5rem;
+    margin-bottom: 5rem;
+}
+.pformulario{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+label{
+    font-family: sans-serif;
+}
+textarea{
+    width: 75%;
+}
+.tdform{
+    margin-left: 5%;
+}
+.ul1{
+    margin-left: 10%;
+    list-style: none;
+    font-family: sans-serif;
+}
+.boton{
+    text-align: center;
+    margin-left: 10%;
+    width: 7rem;
+    height: 3rem;
+    background-color: blue;
+    font-size: 1.3rem;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 0.2rem solid white;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+.boton:hover{
+    background-color: white;
+    color: blue;
+    border: 0.2rem solid blue;
+}
+.titulo3{
+    text-decoration: underline;
+    text-underline-offset: 0.6rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+}
+.hreflista{
+    color: black;
+    text-decoration: none;
+}
+.hreflista:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.imatge{
+    width: 300px;
+    height: 300px;
+    margin-top: 5rem;
+}
+.imatge:hover{
+    filter: sepia(75%);
+}
+.imatge2:hover{
+    filter: sepia(75%);
+}
+.tdimatge{
+    padding-left: 3rem;
+}
+.tablahabilidad{
+    margin-left: 10%;
+    font-family: sans-serif;
+}
+.titulo4{
+    margin-left: 10%;
+    font-family: sans-serif;
+}
+.proyectos{
+    margin-top: 5rem;
+    margin-left: 10%;
+}
+.tableproyectos{
+    width: 90%;
+    text-align: center;
+}
+.tdproyectos{
+    width: 50%;
+    padding: 3rem;
+}
+.captura{
+    width: 350px;
+    height: 250px;
+}
+.text{
+    font-family: sans-serif;
+}
+.tablaborde{
+    margin-left: 10%;
+}
+.tdhtml{
+    position: absolute;
+}
+.tablepagina1{
+    position: absolute;
+}
