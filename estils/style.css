@@ -249,3 +249,8 @@ textarea{
 .tablepagina1{
     position: absolute;
 }
+.div_act{
+    float: left;
+    margin-right: 8%;
+    margin-bottom: 30px;
+}
