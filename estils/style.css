@@ -57,7 +57,7 @@ header{
     margin-top: 10px;
 }
 .espacio1{
-    margin-top: 600px;
+    margin-top: 350px;
 }
 .div2{
     float: left;
@@ -89,7 +89,7 @@ header{
     font-style: normal;
 }
 footer{
-    margin: auto;
+    margin-left: 10%;
     width: 70%;
     margin-bottom: 30px;
 }
@@ -102,7 +102,7 @@ footer{
     font-family: sans-serif;
 }
 .spanfooter1{
-    color: cyan;
+    color: yellow;
     font-size: 28px;
     font-family: "Noto Sans", serif;
     text-decoration-line: none;
