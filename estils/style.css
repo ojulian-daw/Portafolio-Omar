@@ -1,127 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 body{
-    background-color: rgb(193,236,206);
-}
-header{
-    margin-bottom: 5rem;
-    margin-left: 5%;
-}
-.hrefindex{
-   color: black;
-    text-decoration: none;
-}
-.h2a{
-    margin-left: 2rem;
-    font-family: sans-serif;
-    font-size: 2rem;
-    font-style: italic;
-}
-.h2a:hover{
-    color: blue;
-}
-.enlacemenu{
-    font-family: sans-serif;
-    font-size: 1.1rem;
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-    margin-left: 2rem;
-}
-.enlacemenu:hover{
-    color: blue;
-    text-decoration: underline;
-    font-style: italic;
-}
-.titulo1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-style: italic;
-    margin-left: 5rem;
-    font-size: 4.2rem;
-}
-.titulo2{
-    font-family: sans-serif;
-    font-weight: bold;
-    font-style: italic;
-    margin-left: 5rem;
-    font-size: 3.8rem;
-}
-footer{
-    text-align: center;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-    width: 100%;
-}
-.spanfooter{
-    font-weight: bold;
-    font-size: 0.95rem;
-    font-family: sans-serif;
-    margin-right: 5rem;
-}
-.spanfooter1{
-    text-decoration: none;
-    margin-right: 5rem;
-    font-size: 1.2rem;
-    font-weight: bold;
-    font-family: sans-serif;
-    letter-spacing: 0.4rem;
-    color: blue;
-}
-.spanfooter1:hover{
-    text-decoration: underline;
+    background: rgb(65,77,73);
+    background: linear-gradient(90deg, rgba(65,77,73,1) 0%, rgba(43,43,43,1) 100%);
+    width: 80%;
+    margin: auto;
     color: white;
 }
-.autor{
-    font-style: italic;
-    letter-spacing: 0.1rem;
-    margin-left: 1rem;
+header{
+    margin-top: 25px;
 }
-.autor:hover{
+.titol{
+    font-family: "Poppins", serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 42px;
+    text-decoration: underline;
+}
+.titol2{
+    font-family: "Parkinsans", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 5%;
+    color: yellow;
+}
+.tdenlace{
+    width: 25%;
+}
+.enalcemain{
+    font-weight: bold;
+    font-family: "Poppins", serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+}
+.enalcemain:hover{
+    color: yellow;
+}
+.enlace{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: yellow;
+}
+.enlace:hover{
     color: cyan;
 }
-
-.tablacurriculum{
-    padding: 1rem;
+.espacio{
+    margin-top: 10px;
 }
-.curriculum{
-    margin-left: 10%;
-    margin-top: 5rem;
+.espacio1{
+    margin-top: 600px;
 }
-.hrcurriculum{
-    background-color: gray;
-    width: 80%;
+.div2{
+    float: left;
+    width: 50%;
 }
-th{
+.titol4{
+    color: yellow;
     text-decoration: underline;
-    font-family: serif;
+    font-size: 32px;
     font-style: italic;
-    font-weight: bold;
-    font-size: 1.2rem;
+}
+.divimatge{
+    margin-top: 40px;
+    margin-left: 15%;
+    width: 70%;
+    border: 2px 2px solid white;
+}
+.imatge{
+    width: 100%;
+}
+.p1{
+    font-family: "Noto Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.llistainicial{
+    font-family: "Noto Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+footer{
+    margin: auto;
+    width: 70%;
+    margin-bottom: 30px;
+}
+.tdenlace2{
+    width: 20%;
+}
+.spanfooter{
+    color: cyan;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+.spanfooter1{
+    color: cyan;
+    font-size: 28px;
+    font-family: "Noto Sans", serif;
+    text-decoration-line: none;
+}
+.spanfooter1:hover{
+    color: white;
+    font-style: italic;
+}
+.titol5{
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 38px;
+}
+.tablacurriculum{
+    padding: 3rem;
+    font-family: "Noto Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 .td1{
-    font-weight: bold;
-    font-family: sans-serif;
-    text-align: left;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    font-size: 18px;
 }
 .td2{
     font-style: italic;
-    text-align: right;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-li{
-    margin-bottom: 0.5rem;
-}
-.lugarlista{
-    list-style-type: none;
-    margin-left: 1rem;
-    font-style: italic;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-.elementolista{
-    font-weight: bold;
-    font-family: sans-serif;
+    padding-left: 10%;
+    font-size: 18px;
 }
 .titulcurriculum{
     text-decoration: underline;
@@ -130,127 +137,139 @@ li{
     font-size: 1.5rem;
     letter-spacing: 0.2rem;
 }
+.lugarlista{
+    list-style-type: none;
+    margin-left: 1rem;
+    font-style: italic;
+    font-size: 20px;
+    padding-bottom: 3px;
+    color: black;
+}
+.elementolista{
+    font-size: 18px;
+    padding-bottom: 3px;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+}
 .listaprogrmas{
     list-style: square;
+    font-family: "Noto Sans", serif;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
 }
-.habilidades{
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+.tipoprograma{
+    list-style: none;
+    text-decoration: underline;
+    font-family: "Roboto Mono", serif;
+    font-size: 24px;
 }
-.pcurriculum{
-    margin-left: 10%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.espacio2{
+    margin-bottom: 40px;
 }
-.divformulario{
-    margin-left: 10%;
-    margin-top: 2.5rem;
-    margin-bottom: 5rem;
+.tablacurriculum{
+    font-family: "Roboto Mono", serif;
+    font-size: 24px;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
 }
-.pformulario{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.hrcurriculum{
+    background-color: gray;
+    width: 100%;
 }
-label{
-    font-family: sans-serif;
-}
-textarea{
-    width: 75%;
+.tablaform{
+    width: 100%;
+    margin-top: 10px;
 }
 .tdform{
-    margin-left: 5%;
+    font-family: "Roboto Mono", serif;
 }
-.ul1{
-    margin-left: 10%;
-    list-style: none;
-    font-family: sans-serif;
+input{
+    margin-top: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Noto Sans", serif;
+    box-shadow: inset 1px 3px black;
+}
+select{
+    margin-top: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    font-family: "Noto Sans", serif;
+    box-shadow: inset 1px 3px black;
+}
+textarea{
+    margin-top: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 80px;
+    width: 500px;
+    font-family: "Noto Sans", serif;
+    padding-left: 2%;
+    padding-top: 2%;
+    box-shadow: inset 2px 5px black;
 }
 .boton{
-    text-align: center;
-    margin-left: 10%;
-    width: 7rem;
-    height: 3rem;
-    background-color: blue;
-    font-size: 1.3rem;
-    color: white;
-    font-family: sans-serif;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 50px;
+    width: 140px;
+    font-family: "Noto Sans", serif;
     font-weight: bold;
-    border: 0.2rem solid white;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
-    border-bottom-right-radius: 10%;
-    border-bottom-left-radius: 10%;
+    color: white;
+    font-size: 22px;
+    background-color: blue;
+    box-shadow: inset 1px 3px black;
 }
 .boton:hover{
     background-color: white;
     color: blue;
-    border: 0.2rem solid blue;
 }
-.titulo3{
+.titol6{
+    color: yellow;
+    font-family: "Poppins", serif;
+    letter-spacing: 0.5px;
+    font-size: 26px;
+    font-style: italic;
     text-decoration: underline;
-    text-underline-offset: 0.6rem;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5rem;
-    letter-spacing: 0.2rem;
+    margin-bottom: 3px;
+}
+.act{
+    float: left;
+    margin-right: 6%;
+}
+.act2{
+    float: left;
 }
 .hreflista{
-    color: black;
-    text-decoration: none;
+    text-decoration-line: none;
 }
-.hreflista:hover{
-    color: blue;
-    text-decoration: underline;
+.lugarlista1{
+    color: cyan;
+    font-family: "Noto Sans", serif;
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 1px;
 }
-.imatge{
-    width: 300px;
-    height: 300px;
-    margin-top: 5rem;
-}
-.imatge:hover{
-    filter: sepia(75%);
-}
-.imatge2:hover{
-    filter: sepia(75%);
-}
-.tdimatge{
-    padding-left: 3rem;
-}
-.tablahabilidad{
-    margin-left: 10%;
-    font-family: sans-serif;
-}
-.titulo4{
-    margin-left: 10%;
-    font-family: sans-serif;
-}
-.proyectos{
-    margin-top: 5rem;
-    margin-left: 10%;
-}
-.tableproyectos{
-    width: 90%;
-    text-align: center;
-}
-.tdproyectos{
-    width: 50%;
-    padding: 3rem;
-}
-.captura{
-    width: 350px;
-    height: 250px;
-}
-.text{
-    font-family: sans-serif;
-}
-.tablaborde{
-    margin-left: 10%;
-}
-.tdhtml{
-    position: absolute;
-}
-.tablepagina1{
-    position: absolute;
-}
-.div_act{
-    float: left;
-    margin-right: 8%;
-    margin-bottom: 30px;
+.lugarlista1:hover{
+    color: yellow;
+    font-style: italic;
 }
